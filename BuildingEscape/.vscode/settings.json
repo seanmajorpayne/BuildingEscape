@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/home/major/Desktop/projects/BuildingEscape/BuildingEscape/.vscode": true,
+		"/home/major/Desktop/projects/BuildingEscape/BuildingEscape/Content": true,
+		"/home/major/Desktop/projects/BuildingEscape/BuildingEscape/Intermediate": true
+	}
+}

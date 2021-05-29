@@ -1,0 +1,3 @@
+/home/major/Desktop/projects/BuildingEscape/BuildingEscape/Source/BuildingEscape/BuildingEscape.Build.cs
+/home/major/Desktop/projects/BuildingEscape/BuildingEscape/Source/BuildingEscape.Target.cs
+/home/major/Desktop/projects/BuildingEscape/BuildingEscape/Source/BuildingEscapeEditor.Target.cs
