@@ -4,6 +4,7 @@
 #include "Grabber.h"
 #include "GameFramework/PlayerController.h"
 #include "Engine/World.h"
+#include "DrawDebugHelpers.h"
 
 #define OUT
 
@@ -42,6 +43,20 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 	UE_LOG(LogTemp, Warning, TEXT("Location: %s"), *PlayerViewLocation.ToString());
 	UE_LOG(LogTemp, Warning, TEXT("Rotation: %s"), *PlayerViewRotation.ToString());
+
+	// Draw a line from player showing the reach.
+
+	FVector LineTraceEnd = PlayerViewLocation + PlayerViewRotation.Vector() * Reach;
+	DrawDebugLine(
+		GetWorld(),
+		PlayerViewLocation,
+		LineTraceEnd,
+		FColor(0, 255, 0),
+		false,
+		0.f,
+		0,
+		5
+	);
 
 
 	// Ray-cast out to a certain distance
