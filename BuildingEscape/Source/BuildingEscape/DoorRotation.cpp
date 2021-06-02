@@ -6,6 +6,7 @@
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "Components/PrimitiveComponent.h"
+#include "Components/AudioComponent.h"
 
 #define OUT
 
@@ -37,6 +38,16 @@ void UDoorRotation::BeginPlay()
 	}
 
 	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
+	FindAudioComponent();
+}
+
+void UDoorRotation::FindAudioComponent()
+{
+	DoorSound = GetOwner()->FindComponentByClass<UAudioComponent>();
+	if(!DoorSound)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Missing DoorSound component on %s"), *GetOwner()->GetName());
+	}
 }
 
 
@@ -61,6 +72,14 @@ void UDoorRotation::OpenDoor(float DeltaTime)
 	FRotator Increment(0.f, 0.f, 0.f);
 	Increment.Yaw = FMath::FInterpTo(CurrentYaw, TargetYaw, DeltaTime, 1);
 	GetOwner()->SetActorRotation(Increment);
+
+	CloseDoorSound = false;
+	if(!DoorSound) {return;}
+	if(!OpenDoorSound && !DoorSound->IsPlaying())
+	{
+		DoorSound->Play();
+		OpenDoorSound = true;
+	}
 }
 
 // Close door upon event
@@ -70,6 +89,14 @@ void UDoorRotation::CloseDoor(float DeltaTime)
 	FRotator Increment(0.f, 0.f, 0.f);
 	Increment.Yaw = FMath::FInterpTo(CurrentYaw, InitialYaw, DeltaTime, 2);
 	GetOwner()->SetActorRotation(Increment);
+
+	OpenDoorSound = false;
+	if(!DoorSound) {return;}
+	if(!CloseDoorSound && !DoorSound->IsPlaying())
+	{
+		DoorSound->Play();
+		CloseDoorSound = true;
+	}
 }
 
 float UDoorRotation::TotalMassOfActors() const
