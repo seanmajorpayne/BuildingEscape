@@ -2173,3 +2173,302 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2021.06.02-01.48.33:449][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.06.02-01.48.33:465][651]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
 [2021.06.02-01.48.33:495][653]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.06.02-01.52.50:705][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.06.02-01.52.50:780][536]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.52.50:780][536]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.52.50:781][536]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.52.50:797][536]Candidate modules for hot reload:
+[2021.06.02-01.52.50:797][536]  BuildingEscape
+[2021.06.02-01.52.50:797][536]Launching UnrealBuildTool... [/home/major/Desktop/projects/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,5263 Linux Development -TargetType=Editor -Project="/home/major/Desktop/projects/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "/home/major/Desktop/projects/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk -progress]
+[2021.06.02-01.52.50:798][536]Warning: Starting HotReload took  0.0s.
+[2021.06.02-01.52.59:205][468]CompilerResultsLog: New page: Compilation - Jun 2, 2021, 7:52:59 PM
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: 
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: Running Mono...
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: 
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: Setting up Mono
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: ~/Desktop/projects/UnrealEngine/Engine ~/Desktop/projects/UnrealEngine/Engine/Binaries/Linux
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: *** PYTHON NOT FOUND: /usr/bin/python
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: *** PYTHON NOT FOUND: /usr/bin/python
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/major/Desktop/projects/UnrealEngine).
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/major/Desktop/projects/BuildingEscape).
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: @progress push 5%
+[2021.06.02-01.52.59:206][468]CompilerResultsLog: @progress 'Generating code...' 0%
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: @progress 'Generating code...' 67%
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: @progress 'Generating code...' 100%
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: @progress pop
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: ------- Build details --------
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: Using toolchain located at '/home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: Using clang (/home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: Using bundled libc++ standard C++ library.
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: Using lld linker
+[2021.06.02-01.52.59:207][468]CompilerResultsLog: Using llvm-ar : /home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: Using fast way to relink  circularly dependent libraries (no FixDeps).
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: ------------------------------
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: Error: /home/major/Desktop/projects/BuildingEscape/BuildingEscape/Source/BuildingEscape/Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: Performing 3 actions (10 in parallel)
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: @progress 'Compiling C++ source code...' 0%
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: [1/3] Compile Grabber.cpp
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: @progress 'Compiling C++ source code...' 25%
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: [2/3] Link (ld) libUE4Editor-BuildingEscape-5263.so
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: @progress 'Compiling C++ source code...' 50%
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: [3/3] UnrealBuildTool.exe BuildingEscapeEditor.target
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: @progress 'Compiling C++ source code...' 75%
+[2021.06.02-01.52.59:208][468]CompilerResultsLog: Total time in Local executor: 4.11 seconds
+[2021.06.02-01.52.59:209][468]CompilerResultsLog: Total execution time: 8.18 seconds
+[2021.06.02-01.52.59:209][468]LogMainFrame: MainFrame: Module compiling took 8.429 seconds
+[2021.06.02-01.52.59:230][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.06.02-01.52.59:231][468]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.06.02-01.52.59:348][468]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.06.02-01.52.59:348][468]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.06.02-01.52.59:351][468]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.02-01.52.59:487][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.06.02-01.52.59:488][468]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.06.02-01.52.59:499][468]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2693 classes and 621 folders.
+[2021.06.02-01.52.59:499][468]Display: HotReload took  8.7s.
+[2021.06.02-01.53.00:165][519]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.02-01.53.00:176][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.53.00:176][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-01.53.00:176][519]PIE: New page: PIE session: Level_One (Jun 2, 2021, 7:53:00 PM)
+[2021.06.02-01.53.00:176][519]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_One
+[2021.06.02-01.53.00:179][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002625s)
+[2021.06.02-01.53.00:179][519]LogAIModule: Creating AISystem for world Level_One
+[2021.06.02-01.53.00:180][519]LogPlayLevel: PIE: World Init took: (0.000419s)
+[2021.06.02-01.53.00:180][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_One.Level_One to /Game/Levels/UEDPIE_0_Level_One.Level_One (0.003322s)
+[2021.06.02-01.53.00:226][519]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.06.02-01.53.00:227][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-01.53.00:227][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-01.53.00:227][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-01.53.00:227][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-01.53.00:227][519]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-01.53.00:228][519]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.06.02-01.53.00:228][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-01.53.00:228][519]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-01.53.00:228][519]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2021.06.02-01.53.00:396][519]LogInit: FAudioDevice initialized.
+[2021.06.02-01.53.00:408][519]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.06.02-01.53.00:414][519]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.06.02-10.53.00
+[2021.06.02-01.53.00:415][519]LogWorld: Bringing up level for play took: 0.004601
+[2021.06.02-01.53.00:420][519]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level_One 0.25
+[2021.06.02-01.53.00:421][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.53.04:522][991]LogTemp: Warning: Cube_2 was hit!
+[2021.06.02-01.53.09:835][621]LogTemp: Warning: Cube_2 was hit!
+[2021.06.02-01.53.12:252][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.53.12:252][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.53.12:252][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.53.12:253][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-01.53.12:253][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.53.12:260][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-01.53.12:260][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.53.12:285][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.53.12:310][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-01.53.12:324][911]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.06.02-01.53.12:356][913]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.06.02-01.53.12:381][916]Cmd: SELECT NONE
+[2021.06.02-01.53.13:921][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.06.02-01.53.13:997][ 76]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.53.13:997][ 76]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.53.13:997][ 76]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.53.14:014][ 76]Candidate modules for hot reload:
+[2021.06.02-01.53.14:014][ 76]  BuildingEscape
+[2021.06.02-01.53.14:014][ 76]Launching UnrealBuildTool... [/home/major/Desktop/projects/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,2008 Linux Development -TargetType=Editor -Project="/home/major/Desktop/projects/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "/home/major/Desktop/projects/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk -progress]
+[2021.06.02-01.53.14:014][ 76]Warning: Starting HotReload took  0.0s.
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: New page: Compilation - Jun 2, 2021, 7:53:19 PM
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: 
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: Running Mono...
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: 
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: Setting up Mono
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: ~/Desktop/projects/UnrealEngine/Engine ~/Desktop/projects/UnrealEngine/Engine/Binaries/Linux
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: *** PYTHON NOT FOUND: /usr/bin/python
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: *** PYTHON NOT FOUND: /usr/bin/python
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/major/Desktop/projects/UnrealEngine).
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/major/Desktop/projects/BuildingEscape).
+[2021.06.02-01.53.19:620][257]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: @progress push 5%
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: @progress 'Generating code...' 0%
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: @progress 'Generating code...' 67%
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: @progress 'Generating code...' 100%
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: @progress pop
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: ------- Build details --------
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: Using toolchain located at '/home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: Using clang (/home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+[2021.06.02-01.53.19:621][257]CompilerResultsLog: Using bundled libc++ standard C++ library.
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: Using lld linker
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: Using llvm-ar : /home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: Using fast way to relink  circularly dependent libraries (no FixDeps).
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: ------------------------------
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: Error: /home/major/Desktop/projects/BuildingEscape/BuildingEscape/Source/BuildingEscape/Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: Performing 2 actions (10 in parallel)
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: @progress 'Compiling C++ source code...' 0%
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: [1/2] Link (ld) libUE4Editor-BuildingEscape-2008.so
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: @progress 'Compiling C++ source code...' 33%
+[2021.06.02-01.53.19:622][257]CompilerResultsLog: [2/2] UnrealBuildTool.exe BuildingEscapeEditor.target
+[2021.06.02-01.53.19:623][257]CompilerResultsLog: @progress 'Compiling C++ source code...' 67%
+[2021.06.02-01.53.19:623][257]CompilerResultsLog: Total time in Local executor: 1.31 seconds
+[2021.06.02-01.53.19:623][257]CompilerResultsLog: Total execution time: 5.25 seconds
+[2021.06.02-01.53.19:623][257]LogMainFrame: MainFrame: Module compiling took 5.626 seconds
+[2021.06.02-01.53.19:644][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.06.02-01.53.19:645][257]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.06.02-01.53.19:766][257]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.06.02-01.53.19:766][257]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.06.02-01.53.19:769][257]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.02-01.53.19:908][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2021.06.02-01.53.19:908][257]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.06.02-01.53.19:920][257]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2693 classes and 621 folders.
+[2021.06.02-01.53.19:920][257]Display: HotReload took  5.9s.
+[2021.06.02-01.53.22:431][349]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.06.02-01.53.22:451][349]LogLinux: Scale at X=1088.000000, Y=686.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.53.22:545][349]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.06.02-01.53.23:499][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_Brush16_StaticMesh)
+[2021.06.02-01.53.24:458][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.06.02-01.53.24:532][486]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.02-01.53.24:543][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.53.24:543][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-01.53.24:543][486]PIE: New page: PIE session: Level_One (Jun 2, 2021, 7:53:24 PM)
+[2021.06.02-01.53.24:543][486]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_One
+[2021.06.02-01.53.24:546][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002672s)
+[2021.06.02-01.53.24:547][486]LogAIModule: Creating AISystem for world Level_One
+[2021.06.02-01.53.24:547][486]LogPlayLevel: PIE: World Init took: (0.000392s)
+[2021.06.02-01.53.24:547][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_One.Level_One to /Game/Levels/UEDPIE_0_Level_One.Level_One (0.003339s)
+[2021.06.02-01.53.24:595][486]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.06.02-01.53.24:596][486]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-01.53.24:596][486]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-01.53.24:596][486]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-01.53.24:596][486]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-01.53.24:596][486]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-01.53.24:596][486]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.06.02-01.53.24:596][486]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-01.53.24:597][486]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-01.53.24:597][486]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2021.06.02-01.53.24:780][486]LogInit: FAudioDevice initialized.
+[2021.06.02-01.53.24:792][486]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.06.02-01.53.24:797][486]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.06.02-10.53.24
+[2021.06.02-01.53.24:799][486]LogWorld: Bringing up level for play took: 0.004544
+[2021.06.02-01.53.24:808][486]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level_One 0.271
+[2021.06.02-01.53.24:809][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.53.26:646][702]LogTemp: Warning: Cube_2 was hit!
+[2021.06.02-01.53.30:171][125]LogTemp: Warning: Cube_2 was hit!
+[2021.06.02-01.53.30:488][163]LogTemp: Warning: Cube_2 was hit!
+[2021.06.02-01.53.32:546][410]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.53.32:546][410]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.53.32:546][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.53.32:547][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-01.53.32:547][410]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.53.32:551][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-01.53.32:552][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.53.32:581][410]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.53.32:617][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-01.53.32:655][410]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2021.06.02-01.53.32:673][411]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.06.02-01.54.13:896][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.06.02-01.54.13:976][739]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.54.13:976][739]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.54.13:976][739]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.54.14:014][739]Candidate modules for hot reload:
+[2021.06.02-01.54.14:014][739]  BuildingEscape
+[2021.06.02-01.54.14:014][739]Launching UnrealBuildTool... [/home/major/Desktop/projects/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape,5646 Linux Development -TargetType=Editor -Project="/home/major/Desktop/projects/BuildingEscape/BuildingEscape/BuildingEscape.uproject" "/home/major/Desktop/projects/BuildingEscape/BuildingEscape/BuildingEscape.uproject"  -IgnoreJunk -progress]
+[2021.06.02-01.54.14:015][739]Warning: Starting HotReload took  0.0s.
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: New page: Compilation - Jun 2, 2021, 7:54:22 PM
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: 
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: Running Mono...
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: 
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: Fixing inconsistent case in filenames.
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: Setting up Mono
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: ~/Desktop/projects/UnrealEngine/Engine ~/Desktop/projects/UnrealEngine/Engine/Binaries/Linux
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: *** PYTHON NOT FOUND: /usr/bin/python
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: *** PYTHON NOT FOUND: /usr/bin/python
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/major/Desktop/projects/UnrealEngine).
+[2021.06.02-01.54.22:312][653]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (/home/major/Desktop/projects/BuildingEscape).
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: Creating makefile for BuildingEscapeEditor (ini files are newer than makefile)
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: @progress push 5%
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: @progress 'Generating code...' 0%
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: @progress 'Generating code...' 67%
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: @progress 'Generating code...' 100%
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: @progress pop
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: ------- Build details --------
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: Using toolchain located at '/home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+[2021.06.02-01.54.22:313][653]CompilerResultsLog: Using clang (/home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: Using bundled libc++ standard C++ library.
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: Using lld linker
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: Using llvm-ar : /home/major/Desktop/projects/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: Using fast way to relink  circularly dependent libraries (no FixDeps).
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: ------------------------------
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: Error: /home/major/Desktop/projects/BuildingEscape/BuildingEscape/Source/BuildingEscape/Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: Performing 3 actions (10 in parallel)
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: @progress 'Compiling C++ source code...' 0%
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: [1/3] Compile Grabber.cpp
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: @progress 'Compiling C++ source code...' 25%
+[2021.06.02-01.54.22:314][653]CompilerResultsLog: [2/3] Link (ld) libUE4Editor-BuildingEscape-5646.so
+[2021.06.02-01.54.22:315][653]CompilerResultsLog: @progress 'Compiling C++ source code...' 50%
+[2021.06.02-01.54.22:315][653]CompilerResultsLog: [3/3] UnrealBuildTool.exe BuildingEscapeEditor.target
+[2021.06.02-01.54.22:315][653]CompilerResultsLog: @progress 'Compiling C++ source code...' 75%
+[2021.06.02-01.54.22:315][653]CompilerResultsLog: Total time in Local executor: 4.01 seconds
+[2021.06.02-01.54.22:315][653]CompilerResultsLog: Total execution time: 8.05 seconds
+[2021.06.02-01.54.22:315][653]LogMainFrame: MainFrame: Module compiling took 8.339 seconds
+[2021.06.02-01.54.22:334][653]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.06.02-01.54.22:335][653]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (unloaded)
+[2021.06.02-01.54.22:456][653]LogBlueprintActionDatabase: Requesting refresh due to module change: BuildingEscape (loaded)
+[2021.06.02-01.54.22:456][653]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.06.02-01.54.22:460][653]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.02-01.54.22:596][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.06.02-01.54.22:596][653]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2021.06.02-01.54.22:608][653]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 2693 classes and 621 folders.
+[2021.06.02-01.54.22:608][653]Display: HotReload took  8.6s.
+[2021.06.02-01.54.23:730][743]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.02-01.54.23:741][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.54.23:741][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-01.54.23:742][743]PIE: New page: PIE session: Level_One (Jun 2, 2021, 7:54:23 PM)
+[2021.06.02-01.54.23:742][743]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_One
+[2021.06.02-01.54.23:744][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002609s)
+[2021.06.02-01.54.23:745][743]LogAIModule: Creating AISystem for world Level_One
+[2021.06.02-01.54.23:745][743]LogPlayLevel: PIE: World Init took: (0.000435s)
+[2021.06.02-01.54.23:745][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_One.Level_One to /Game/Levels/UEDPIE_0_Level_One.Level_One (0.003315s)
+[2021.06.02-01.54.23:794][743]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2021.06.02-01.54.23:795][743]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-01.54.23:795][743]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-01.54.23:795][743]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-01.54.23:795][743]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-01.54.23:795][743]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-01.54.23:795][743]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2021.06.02-01.54.23:795][743]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-01.54.23:796][743]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-01.54.23:796][743]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2021.06.02-01.54.23:977][743]LogInit: FAudioDevice initialized.
+[2021.06.02-01.54.23:987][743]LogLoad: Game class is 'MyBuildingEscapeGameModeBase_BP_C'
+[2021.06.02-01.54.23:993][743]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_One.Level_One up for play (max tick rate 0) at 2021.06.02-10.54.23
+[2021.06.02-01.54.23:994][743]LogWorld: Bringing up level for play took: 0.004790
+[2021.06.02-01.54.23:999][743]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level_One 0.259
+[2021.06.02-01.54.24:000][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.54.24:989][844]LogTemp: Warning: Key Released
+[2021.06.02-01.54.26:322][  4]LogTemp: Warning: Cube_2 was hit!
+[2021.06.02-01.54.28:131][221]LogTemp: Warning: Key Released
+[2021.06.02-01.54.30:459][498]LogTemp: Warning: Cube_2 was hit!
+[2021.06.02-01.54.31:700][647]LogTemp: Warning: Key Released
+[2021.06.02-01.54.33:493][862]LogTemp: Warning: Cone3_5 was hit!
+[2021.06.02-01.54.35:092][ 54]LogTemp: Warning: Key Released
+[2021.06.02-01.54.47:455][533]LogTemp: Warning: Cube_2 was hit!
+[2021.06.02-01.54.49:029][722]LogTemp: Warning: Key Released
+[2021.06.02-01.54.51:546][ 24]LogTemp: Warning: Cone3_5 was hit!
+[2021.06.02-01.54.52:904][187]LogTemp: Warning: Key Released
+[2021.06.02-01.54.55:047][444]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.54.55:047][444]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.54.55:047][444]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.54.55:047][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-01.54.55:048][444]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.54.55:050][444]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-01.54.55:050][444]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level_One.Level_One:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One' with GeneratedClass '/Game/Levels/Level_One.Level_One_C' with ClassGeneratedBy '/Game/Levels/Level_One.Level_One:PersistentLevel.Level_One'
+[2021.06.02-01.54.55:071][444]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.02-01.54.55:095][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-01.54.55:100][444]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2021.06.02-01.54.55:151][449]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.06.02-01.54.56:286][585]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.54.56:286][585]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.54.56:287][585]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-01.54.56:315][585]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.06.02-01.54.56:465][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_One" FILE="../../../../BuildingEscape/BuildingEscape/Content/Levels/Level_One.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.02-01.54.56:485][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.06.02-01.54.56:600][585]LogSavePackage: Moving '../../../../BuildingEscape/BuildingEscape/Saved/Level_OneFFE1886E08D925B4DC0C2E3C032E73BF.tmp' to '../../../../BuildingEscape/BuildingEscape/Content/Levels/Level_One.umap'
+[2021.06.02-01.54.56:614][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_One_BuiltData" FILE="../../../../BuildingEscape/BuildingEscape/Content/Levels/Level_One_BuiltData.uasset" SILENT=true
+[2021.06.02-01.54.57:081][585]LogSavePackage: Moving '../../../../BuildingEscape/BuildingEscape/Saved/Level_One_BuiltDataFFE3503808D925B4DC14D3C0032F5118.tmp' to '../../../../BuildingEscape/BuildingEscape/Content/Levels/Level_One_BuiltData.uasset'
