@@ -41,4 +41,7 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	AActor* ActorThatOpens;
+
+	UPROPERTY(EditAnywhere)
+	float MassToOpenDoors = 50.f;
 };

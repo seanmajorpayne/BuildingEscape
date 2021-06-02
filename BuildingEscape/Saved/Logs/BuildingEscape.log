@@ -5528,3 +5528,6 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2021.06.02-04.10.20:089][130]LogSavePackage: Moving '../../../../BuildingEscape/BuildingEscape/Saved/Level_One04F86FFA08D925C7C6085CECE7610F47.tmp' to '../../../../BuildingEscape/BuildingEscape/Content/Levels/Level_One.umap'
 [2021.06.02-04.10.20:103][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_One_BuiltData" FILE="../../../../BuildingEscape/BuildingEscape/Content/Levels/Level_One_BuiltData.uasset" SILENT=true
 [2021.06.02-04.10.20:334][130]LogSavePackage: Moving '../../../../BuildingEscape/BuildingEscape/Saved/Level_One_BuiltData04FAF08908D925C7C60E334CE761A4B5.tmp' to '../../../../BuildingEscape/BuildingEscape/Content/Levels/Level_One_BuiltData.uasset'
+[2021.06.02-04.20.11:202][348]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-04.20.11:203][348]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2021.06.02-04.20.11:205][348]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))

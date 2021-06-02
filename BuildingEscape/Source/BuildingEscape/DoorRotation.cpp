@@ -44,7 +44,7 @@ void UDoorRotation::BeginPlay()
 void UDoorRotation::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	if(PressurePlate && TotalMassOfActors() >= 50)
+	if(PressurePlate && TotalMassOfActors() >= MassToOpenDoors)
 	{
 		OpenDoor(DeltaTime);
 	}
@@ -81,10 +81,7 @@ float UDoorRotation::TotalMassOfActors() const
 	PressurePlate->GetOverlappingActors(OUT OverlappingActors);
 	for (AActor* Actor : OverlappingActors)
 	{
-		UPrimitiveComponent* Component = Actor->FindComponentByClass<UPrimitiveComponent>();
-		float ActorMass = Component->GetMass();
-		UE_LOG(LogTemp, Warning, TEXT("Actor Mass %.2f"), ActorMass);
-		TotalMass += ActorMass;
+		TotalMass += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
 	}
 	
 	// Add up their masses
